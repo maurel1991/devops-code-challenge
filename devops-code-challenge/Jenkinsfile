@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     environment {
-        FRONTEND_REPO = "296945066713.dkr.ecr.us-west-2.amazonaws.com/frontend_repo"
-        BACKEND_REPO = "296945066713.dkr.ecr.us-west-2.amazonaws.com/backend_repo"
-        AWS_REGION = "us-west-2"
-        TAG = "latest"
+        // FRONTEND_REPO = "296945066713.dkr.ecr.us-west-2.amazonaws.com/frontend_repo"
+        // BACKEND_REPO = "296945066713.dkr.ecr.us-west-2.amazonaws.com/backend_repo"
+         AWS_REGION = "us-west-2"
+        // TAG = "latest"
     }
 
     stages {
